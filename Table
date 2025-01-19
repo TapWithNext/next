@@ -1,0 +1,18 @@
+getgenv().Next = {
+    Aiming1 = {
+        Prediction = "0.1481",
+        AirPrediction = "0.1415911",
+        AirSmoothness = "0.1415911",
+        Smoothing = false,
+        SmoothValue = "1",
+    },
+
+    Aiming2 = {
+        SilentAim = {
+            Enabled = true,
+            Part = "Head",
+            Prediction = "0.1337",
+            Hitchance = "0.1411",
+        }
+    }
+}
