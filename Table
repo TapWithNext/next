@@ -1,18 +1,24 @@
 getgenv().Next = {
-    Aiming1 = {
+    Camera = {
         Prediction = "0.1481",
         AirPrediction = "0.1415911",
         AirSmoothness = "0.1415911",
-        Smoothing = false,
-        SmoothValue = "1",
+        SmoothEnabled = true,
+        Smoothness = "0.1",
     },
-
-    Aiming2 = {
-        SilentAim = {
+    Misc = {
+        JumpCheck = false,
+        AirPart = "LowerTorso",
+        Jumpset = "0.22",
+        Fallset = "0.33",
+    },
+    BulletRedirection = {
+        Set = {
             Enabled = true,
             Part = "Head",
             Prediction = "0.1337",
             Hitchance = "0.1411",
+            AirType = "Part",-- Move, Around, Jumps, Nothing
         }
     }
 }
