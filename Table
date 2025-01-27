@@ -1,24 +1,27 @@
 getgenv().Next = {
-    Camera = {
+    Travis = {
+        MakeEnabled = true,
+        Part = "HumanoidRootPart",
         Prediction = "0.1481",
+        Smoothness = "1",
+        ShakeAmount = "0",
         AirPrediction = "0.1415911",
-        AirSmoothness = "0.1415911",
-        SmoothEnabled = true,
-        Smoothness = "0.1",
+        AutoPrediction = true,
+    },
+    FOV = {
+        Radius = "2",
+        Visible = false,
+    },
+    Silenting = {
+        FweahEnabled = true,
+        Part = "UpperTorso",
+        Prediction = "0.142",
+        AirPrediction = "0.52",
     },
     Misc = {
-        JumpCheck = false,
-        AirPart = "LowerTorso",
-        Jumpset = "0.22",
-        Fallset = "0.33",
-    },
-    BulletRedirection = {
-        Set = {
-            Enabled = true,
-            Part = "Head",
-            Prediction = "0.1337",
-            Hitchance = "0.1411",
-            AirType = "Part",-- Move, Around, Jumps, Nothing
-        }
-    }
+        Button = true,
+        Tool = false,
+        Resolver = false,
+        AntiGroundShots = false,
+   }
 }
