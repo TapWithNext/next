@@ -24,11 +24,18 @@ getgenv().Next = {
         Z = "0",
     },
     Misc = {
-        Button = true,
-        Tool = false,
         Resolver = false,
         AntiGroundShots = false,
         AntiDelay = true,
         AutoShoot = false,
+    },
+    Check = {
+        KoCheck = false,
+        WallCheck = false,
+        FriendsCheck = true,
+    },
+    Setting = {
+        Button = true,-- if true your gay
+        Tool = false,-- Idk you decide
    }
 }
