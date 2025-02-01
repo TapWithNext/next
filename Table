@@ -14,14 +14,21 @@ getgenv().Next = {
     },
     Silenting = {
         FweahEnabled = true,
-        Part = "UpperTorso",
-        Prediction = "0.142",
+        Part = "HumanoidRootPart",
+        Prediction = "0.1201",
         AirPrediction = "0.52",
+    },
+    JumpDirection = {
+        X = "0",
+        Y = "0",
+        Z = "0",
     },
     Misc = {
         Button = true,
         Tool = false,
         Resolver = false,
         AntiGroundShots = false,
+        AntiDelay = true,
+        AutoShoot = false,
    }
 }
