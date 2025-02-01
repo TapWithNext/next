@@ -30,9 +30,13 @@ getgenv().Next = {
         AutoShoot = false,
     },
     Check = {
-        KoCheck = false,
+        KoCheck = true,
         WallCheck = false,
-        FriendsCheck = true,
+        FriendsCheck = true,-- not working
+    },
+    Easing = {
+        EasingStyle = "Bounce",-- or use enum remove "",
+        EasingDirection = "InOut",-- or use enum remove "",
     },
     Setting = {
         Button = true,-- if true your gay
